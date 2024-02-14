@@ -173,11 +173,13 @@ nav button{
     .intro-image{
         width: 100%;
         margin-top: 20%;
+        display: flex;
+        justify-content: center;
     }
     .intro-image img{
-        width: 100%;
-        object-fit: cover;
-    }
+      width: 90%;
+      object-fit: cover;
+  }
     .intro-2-text{
       margin: 2% 0 10% 0;
       width: 80%;
@@ -188,7 +190,14 @@ nav button{
     }
     .intro-2-text div{
       margin:0;
-      
+    }
+    .intro-2-image-one img{
+      width: 150px;
+      height: 150px;
+    }
+    .intro-2-image-two img{
+      width: 150px;
+      height: 305px;
     }
 
   }
